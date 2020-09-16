@@ -1,0 +1,97 @@
+---
+---
+
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file+'.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+
+@include font('ProductSans', '../fonts/ProductSans');
+
+
+$base-font-family: 'ProductSans';
+$header-font-family: 'ProductSans';
+$monospace-font-family: 'ProductSans', monospace;
+$base-font-size: 17px !default;
+
+
+code {
+	font-family: $monospace-font-family;
+}
+
+.post-tag {
+	text-decoration: none !important; 
+	font-family: $monospace-font-family;
+  font-size: 13px;
+}
+
+@import "minima";
+@import url('https://fonts.googleapis.com/css?family=Lora|Cousine|Libre+Baskerville|Prata|Work+Sans');
+@import url("https://use.typekit.net/jgn0wbv.css");
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+}
+
+.post-list-item {
+  font-family: $base-font-family;
+}
+
+.footer-col-1 {
+  width: calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+  width: calc(25% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+  width: calc(40% - (#{$spacing-unit} / 2));
+}
+
+.rss-subscribe{
+  font-size: 11px;
+  margin-top: -2%;
+}
+
+.small-details{
+  margin-left: 5%;
+  margin-top: -2%;
+  font-size: 12px;
+  cursor: pointer;
+  color: blue;
+}
+
+.question{
+  text-decoration: underline !important;
+}
+
+.answer{
+  color: black !important;
+}
+
+.post-list-heading {
+  font-size: 20px !important;
+}
+
+.post-list-month-heading {
+  font-size: 18px !important;
+  margin-bottom: -2px !important;
+}
+
+.extrameta {
+  margin-left: 5% !important;
+}
+
+.page-heading{
+  font-size: 25px;
+}
+
+.small-ph{
+  font-size: 16px;
+}

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h3>All Posts</h3>
+
+<div class="archive">
+  {%- if page.title -%}
+    <h3 class="page-heading">{{ page.title }}<h3/>
+  {%- endif -%}
+
+  {{ content }}
+  {%- include archive-list.html posts=site.posts -%}
+</div>

@@ -1,0 +1,27 @@
+---
+layout: default
+permalink: /archive/
+title: Archive
+redirect_from: /articles/
+
+---
+
+<!-- <div class="archive">
+	<p>A few important tags: <a href="/archive/tag/literature/">Literature</a> — <a href="/archive/tag/poetry/">Poetry</a> — <a href="/archive/tag/computer-science/">Comp-Science</a> — <a href="/archive/tag/cinema/">Cinema</a></p>
+
+<details class="small-details">
+		<summary class="question">click for full tag-cloud</summary>
+		<span class="answer">
+		{%- include tag-cloud.html tags=site.tags -%}</span>
+	</details>
+
+ -->
+
+ {%- if page.title -%}
+		<h4 class="page-heading">{{ page.title }}<span class="small-ph"> — all blog posts</span></h4>
+	{%- endif -%}
+
+<!-- <h3>All Posts</h3> -->
+  {%- assign non_journal_posts = site.posts | where: 'journal', false -%}
+  {%- include archive-list.html posts=non_journal_posts -%}
+</div>

@@ -1,0 +1,16 @@
+---
+permalink: /journal/
+layout: default
+title: Journal
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h2>{{ page.title }} <span style="font-size: 14px;"> ——— entries about whatever is going around</span></h2>
+  {%- endif -%}
+
+  {%- assign journal_posts = site.posts | where: 'journal', true -%}
+  {%- if journal_posts.size > 0 -%}
+    {%- include journal-list.html posts=journal_posts -%}
+  {%- endif -%}
+</div>

@@ -1,0 +1,63 @@
+title: Réflexions de Solanki
+author:  Ankit Solanki @Solanki
+email: ankit03june@gmail.com
+description: >
+  Embrace the Absurd
+timezone: Asia/Kolkata
+url: https://techcentaur.github.io
+baseurl: ''
+
+twitter_username: 
+github_username: techcentaur
+linkedin_username: ankitsolanki03
+instagram_username:
+flickr_username: 
+
+show_excerpts: false
+minima:
+  date_format: '%b %-d, %Y'
+  date_format_noyear: '%b %-d'
+
+markdown: kramdown
+theme: minima
+
+include:
+  - _pages
+  
+header_pages:
+  - title: About
+    url: '/about/'
+  - title: Archive
+    url: '/archive/'
+  - title: Journal
+    url: '/journal/'
+  - title: Résumé
+    url: '/resume.pdf'
+  - title: Portfolio
+    url: '/portfolio'
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - vendor
+
+permalink: /articles/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: ['tags']
+  layout: archivist
+  permalinks:
+    tag: '/archive/tag/:name/'
+
+disqus:
+    shortname: 
+google_analytics:

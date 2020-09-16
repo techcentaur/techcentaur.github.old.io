@@ -1,0 +1,8 @@
+&nbsp;
+{% assign tags = include.post.tags | sort %}
+<span class="post-meta"><nobr>[
+  {% for tag in tags %}
+    <span class="post-tag">{{ tag }}</span>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+]</nobr></span>

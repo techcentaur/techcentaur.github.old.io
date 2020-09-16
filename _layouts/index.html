@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h2>{{ page.title }}</h2>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- assign showcased_posts = site.posts | where: 'showcase', true -%}
+  {%- if showcased_posts.size > 0 -%}
+    <h2>{{ page.list_title | default: "Posts" }}</h2>
+    <p>{{ page.list_intro }}<br>
+    <p class="rss-subscribe"> ——— subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
+    </p>
+    {%- include archive-list.html posts=showcased_posts -%}
+  {%- endif -%}
+  
+</div>
