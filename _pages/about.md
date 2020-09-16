@@ -4,6 +4,8 @@ layout: page
 title: About
 ---
 
+Hi, I'm Ankit Solanki.
+
 21 (M) — INTP — India
 
 Academics — 
@@ -20,6 +22,7 @@ Interests —
 </details>
 
 - Cinematography ^ Film Direction
+- Football ^ Skateboarding ^ Video Gaming
 
 Contact —
 - For readers — hit me up on Goodreads [here](https://www.goodreads.com/ankitsolanki). (active)
