@@ -9,7 +9,7 @@ list_intro: >
 - <a href="/about">About</a> ---- Me. 
 - <a href='/archive'>Archive</a> ---- For all published posts.
 - <a href="/journal">Journal</a> ---- For entries possibly on anything about everything.
-- <a href="/resume">Resume</a> ---- I use for freelancing or part-time jobs.
+- <a href="/resume.pdf">Resume</a> ---- I use for freelancing or part-time jobs.
 - <a href="/portfolio">Portfolio</a> ---- Space for me to organize my projects.
 
 
