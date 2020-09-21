@@ -11,8 +11,10 @@ Hi, I'm Ankit Solanki.
 Academics — 
 - Computer Science and Engineering — B. Tech and M.Tech from IIT-Delhi.
 - Interests:
-	- Overall — Designing Architecture + Graphics + Machine Learning / Text Analysis
-	- Systems — Distributed + Operating + Cloud
+	- Overall — Designing Architecture + Graphics + Machine Networks + Text Analysis
+	- Systems — Advanced Distributed + Operating (Process-Management) + Cloud
+	- Freelancing — ML Consultant + Python Scripts and Services + Micro-services
+
 
 Interests —
 - Literature ^ Philosophical Meditations ^ Linguistics
@@ -21,7 +23,7 @@ Interests —
    <span class="answer">Kafka, Camus, Garcia Marquez, Dostovesky, Nabokov, George R R Martin, Wittgenstein, Zizek</span>
 </details>
 
-- Cinematography ^ Film Direction
+- Cinematography / Film Direction
 - Football ^ Skateboarding ^ Video Gaming
 
 Contact —
@@ -36,3 +38,4 @@ Contact —
 #### Why this blog?
 
 It's like time travel.
+		

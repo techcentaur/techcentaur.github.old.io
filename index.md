@@ -8,9 +8,8 @@ list_intro: >
 
 - <a href="/about">About</a> ---- Me. 
 - <a href='/archive'>Archive</a> ---- For all published posts.
-- <a href="/journal">Journal</a> ---- For entries possibly on anything about everything.
-- <a href="/resume.pdf">Resume</a> ---- I use for freelancing or part-time jobs.
-- <a href="/portfolio">Portfolio</a> ---- Space for me to organize my projects.
+- <a href="/journal">Journal</a> ---- Write-up entries on anything about everything.
+- <a href="/portfolio">Portfolio</a> ---- Space for me to organize my cs-projects.
 
 
 <!-- 
@@ -24,3 +23,10 @@ list_intro: >
 </details>
  -->
 <hr style="margin-top: 2%; opacity: 1; margin-bottom: 2%;">
+		
+		
+		
+		
+		
+		
+		
