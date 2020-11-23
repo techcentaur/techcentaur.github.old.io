@@ -1,8 +1,8 @@
-title: Réflexions de Solanki
-author:  Ankit Solanki @Solanki
+title: Tamas
+author: Solanki
 email: ankit03june@gmail.com
 description: >
-  Embrace the Absurd
+  Count the Absurd
 timezone: Asia/Kolkata
 url: https://techcentaur.github.io
 baseurl: ''
@@ -27,14 +27,12 @@ include:
 header_pages:
   - title: About
     url: '/about/'
-  - title: Archive
+  - title: Posts
     url: '/archive/'
   - title: Journal
     url: '/journal/'
   - title: Résumé
     url: '/resume.pdf'
-  - title: Portfolio
-    url: '/portfolio'
 
 exclude:
   - CNAME

@@ -9,11 +9,11 @@ Hi, I'm Ankit Solanki.
 21 (M) — INTP — India
 
 Academics — 
-- Computer Science and Engineering — B. Tech and M.Tech from IIT-Delhi.
+- Computer Science and Engineering Undergrad — from IIT-Delhi.
 - Interests:
-	- Overall — Designing Architecture + Graphics + Machine Networks + Text Analysis
-	- Systems — Advanced Distributed + Operating (Process-Management) + Cloud
-	- Freelancing — ML Consultant + Python Scripts and Services + Micro-services
+	- Overall — Design + Graphics + Systems
+		- Systems — Distributed + Operating + Cloud
+	- Freelancing — ML Consultant + Python Services + Micro-services
 
 
 Interests —
@@ -23,8 +23,9 @@ Interests —
    <span class="answer">Kafka, Camus, Garcia Marquez, Dostovesky, Nabokov, George R R Martin, Wittgenstein, Zizek</span>
 </details>
 
-- Cinematography / Film Direction
-- Football ^ Skateboarding ^ Video Gaming
+- Physics ^ Manufacturing
+- Cinematography
+- Football ^ Video Gaming
 
 Contact —
 - For readers — hit me up on Goodreads [here](https://www.goodreads.com/ankitsolanki). (active)
@@ -35,7 +36,6 @@ Contact —
 <hr>
 
 <br>
-#### Why this blog?
+### Not A Blog
 
-It's like time travel.
-		
+[Tamas](https://en.wikipedia.org/wiki/Sattva) is one of the modes of existence in Samkhya school of Hindu philosophy.
